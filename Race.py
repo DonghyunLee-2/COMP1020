@@ -7,7 +7,7 @@ import random
 
 class Horse:
     def __init__(self, speed, y_pos, image_file, window):
-        self.x_pos = 50
+        self.x_pos = 0
         self.y_pos = y_pos
         self.image = Image(Point(self.x_pos, self.y_pos), image_file)
         self.window = window
